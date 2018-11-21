@@ -38,13 +38,11 @@ public class Game {
             }
         }
         counter++;
-
     }
 
     public void setCounter(int i) {
         counter = i;
     }
-
 
     public int getBulls() {
         return bulls;
@@ -54,9 +52,7 @@ public class Game {
         return cows;
     }
 
-
     public int getCounter() {
         return counter;
     }
-
 }
